@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    padding: 1rem;
+    background-color: #52bd5e;
+    color: #fff;
+}
+
+header h1 {
+    text-align: center;
+}
+
+.nav-links {
+    display: flex;
+    padding: 20px 10px;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: auto;
+}
+
+.nav-links li {
+    padding: 5px;
+}
+
+.nav-links li a {
+    font-size: 1.2rem;
+    color: #fff;
+    text-shadow: 2px 2px 3px black;
+    padding: 4px;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-links li a:hover {
+    border-bottom: 2px solid #fefefe;
+}
+
+@media (max-width: 670px) {
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+main {
+    background-image: url(imagens/imagemmine.png);
+    width: 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 50px;
+}
+
+div.container {
+    color: #000000;
+    background-color: rgba(255, 250, 250, 0.678);
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 15px;
+}
+
+div.container .titulo {
+    text-align: center;
+    padding: 10px;
+}
+
+.text-sobre {
+    padding: 10px;
+    text-align: justify;
+}
+
+div.curiosidades {
+    width: 100%;
+    height: 100vh;
+    padding: 40px 15px;
+    margin-top: 300px;
+    background-image: url(imagens/curiosidade.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+}
+
+.caixa-text {
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.76);
+    max-width: 700px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.441);
+}
+
+div.curiosidades h1 {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2rem;
+}
+
+div.curiosidades ul {
+    padding: 20px 10px;
+    font-size: 1.1rem;
+}
+
+div.curiosidades ul li {
+    padding: 10px 0;
+}
+
+.versao {
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    color: black;
+    padding: 12px;
+}
+
+.text-versao {
+    max-width: 700px;
+    margin: auto;
+    margin-top: 35px;
+}
+
+.versao h1 {
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 25px 0;
+}
+
+.versao h2 {
+    padding-top: 50px;
+}
+
+.versao p {
+    padding: 30px 0;
+    text-align: justify;
+    font-size: 1.1rem;
+}
+
+
+div.butao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+}
+
+div.butao button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: rgb(96, 153, 9);
+    border-radius: 2px;
+}
+
+div.butao button a {
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+div.butao button:hover {
+    background-color: rgba(0, 0, 0, 0.03);
+    background-color: rgb(168, 205, 112);
+}
+
+div.butao button a:hover {
+    text-decoration: underline;
+    color: black;
+}
